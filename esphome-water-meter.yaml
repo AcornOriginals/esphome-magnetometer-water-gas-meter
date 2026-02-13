@@ -1,8 +1,8 @@
 ---
 substitutions:
-  gpio_led: GPIO2
+  #gpio_led: GPIO2
   # For water one of: CCF, ft³, gal, L, m³
-  volume_unit: 'gal'
+  volume_unit: 'L'
 
 packages:
   water_meter: !include
